@@ -4,7 +4,7 @@ function App() {
   const SLACK_CLIENT_ID = "3779108016802.6091136053718";
   const SCOPE = "";
   const USER_SCOPE = "identity.basic,identity.email";
-  const REDIRECT_URL = "https://de1c-60-240-93-213.ngrok.io/auth/slack/callback";
+  const REDIRECT_URL = "https://498f-60-240-93-213.ngrok-free.app/slack/redirect_url";
   const addToSlackUrl = `https://slack.com/oauth/v2/authorize?client_id=${SLACK_CLIENT_ID}&scope=${SCOPE}&user_scope=${USER_SCOPE}&redirect_uri=${REDIRECT_URL}`;
   return (
     <>
